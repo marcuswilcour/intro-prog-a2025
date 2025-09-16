@@ -6,15 +6,15 @@ Pour chaque opération, prédire l’affichage de la valeur choisie.
 ```java
 int a = 5;
 a += 3;
-System.out.println("a = " + a);					a = __________
+System.out.println("a = " + a);					a = 8
 ```
 
 
 ### Exercice  b)
 ```java
 int b = 10;
-System.out.println("b = " + b--); 					b = __________
-System.out.println("b = " + b); 					b = __________
+System.out.println("b = " + b--); 					b = 10
+System.out.println("b = " + b); 					b = 9
 ```
 ## Niveau 2 – Intermédiaire
 ### Exercice  a)
@@ -22,14 +22,14 @@ System.out.println("b = " + b); 					b = __________
 int x = 4;
 int y = 2;
 int z = x * y + 3;
-System.out.println("z = " + z); 					z = __________
+System.out.println("z = " + z); 					z = 11
 ```
 ### Exercice  b)
 ```java
 int c = 15;
 int d = 4;
 c %= d;
-System.out.println("c = " + c); 					c = __________
+System.out.println("c = " + c); 					c = 3
 ```
 ## Niveau 3 – Avancé
 ### Exercice  a)
@@ -38,7 +38,7 @@ int e = 6;
 int f = 3;
 int g = 2;
 int result1 = e + f * g - 4;
-System.out.println("result1 = " + result1); 			result1 = 
+System.out.println("result1 = " + result1); 			result1 = 8
 ```
 __________
 
@@ -48,7 +48,7 @@ int h = 10;
 h *= 2;
 h -= 5;
 h /= 3;
-System.out.println("h = " + h); 					h = __________
+System.out.println("h = " + h); 					h = 5
 ```
 
 ## Niveau 4 – Complexe
@@ -58,8 +58,8 @@ int i = 7;
 int j = 4;
 int k = 2;
 int l = i++ + j * --k;
-System.out.println("l = " + l); 					l = __________
-System.out.println("i (après post-incrémentation) = " + i);	i = __________
+System.out.println("l = " + l); 					l = 11
+System.out.println("i (après post-incrémentation) = " + i);	i = 8
 ```
 
 ### Exercice b)
@@ -68,7 +68,7 @@ int m = 12;
 int n = 5;
 int o = 3;
 m %= n + o;
-System.out.println("m = " + m); 					m = __________
+System.out.println("m = " + m); 					m = 0
 ```
 
 ##  Niveau 5 – Expert
@@ -79,7 +79,7 @@ int q = 2;
 int r = 3;
 int s = 4;
 int resultat = (p++ * q) + (--r * s) - p;
-System.out.println("resultat = " + resultat); 	resultat = __________
+System.out.println("resultat = " + resultat); 	resultat = 12
 ```
 
 
